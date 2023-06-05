@@ -1,33 +1,42 @@
-# Project
+#  Python + Power Apps Workshop
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+Welcome to the Python and Power Apps workshop. In this workshop, you will learn how to integrate an OpenAPI backend built with Python, and a Power Apps frontend. 
 
-As the maintainer of this project, please make a few updates:
+![The complete ToDo Power App](#)
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+## Agenda
 
-## Contributing
+### Lab 0 - Setup your environment
+This lab is all about setting up your environment. This is what you need to get started. Make sure to do this before starting the workshop.
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+:link: [Lab 0 - Setup your environment](#)
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+### Lab 1 - Getting the Python API up and running in Azure
+This lab will help you deploy the Python API to Azure using the Azure Developer CLI.
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+:link: [Lab 1 - Getting the Python API up and running in Azure](#)
 
-## Trademarks
+### Lab 2 - Adding data with the ToDo API
+Now that you've got our API up and running in Azure, let's add some data so it's there, ready and waiting, for us to play with in Power Apps.
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+:link: [Lab 2 - Adding data with the ToDo API](#)
+
+### Lab 3 - Creating a Custom Connector
+This lab will help you enable your Power App to interact with the API in the previous lab, by creating a Custom Connector.
+
+:link: [Lab 3 - Creating a Custom Connector](#)
+
+### Lab 4 - Testing a Custom Connector
+With the Custom Connector created, this lab will take you through the necessary steps to test it and to make sure that it's working appropriately.
+
+:link: [Lab 4 - Testing a Custom Connector](#)
+
+### Lab 5 - Creating a Power Apps Canvas App
+In this lab, you'll be creating the UI for a ToDo List Canvas App which will then be backed by the Custom Connector you created in Lab 3.
+
+:link: [Lab 5 - Creating a Power Apps Canvas App](#)
+
+### Lab 6 - Adding data to a Power Apps Canvas App
+In this lab, you'll be finally connecting the Custom Connector you created in the previous labs to the Canvas App you've just built.
+
+:link: [Lab 6 - Adding data to a Power Apps Canvas App](#)
