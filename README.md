@@ -2,7 +2,7 @@
 
 Welcome to the Python and Power Apps workshop. In this workshop, you will learn how to integrate an OpenAPI backend built with Python, and a Power Apps frontend. 
 
-![The complete ToDo Power App](#)
+![The complete ToDo Power App](/Lab0/assets/complete-power-app-with-more-items.png)
 
 ## Agenda
 
