@@ -6,11 +6,11 @@ Now that we've got our API up and running in Azure, let's add some data so it's 
 
 1. Look for the ```GET /lists``` action under the Lists API.
 
-![The GET Lists action](/Lab2/assets/get-lists-action.png)
+![The GET Lists action](assets/get-lists-action.png)
 
 2. Expand the action and click **Try it out**.
 
-![Screenshot of the "Try it out" button.](/Lab2/assets/get-lists-try-it-out.png)
+![Screenshot of the "Try it out" button.](assets/get-lists-try-it-out.png)
 
 3. Then click **Execute**. This will execute that API action in order to get an array of ToDo lists in the application. 
 
@@ -18,7 +18,7 @@ Scroll down to where you see the Server Response. You should see the 200 respons
 
 Since this is your first time running the API, your response body will empty:
 
-![Screenshot of the response code and the response body](/Lab2/assets/response-code-and-body.png)
+![Screenshot of the response code and the response body](assets/response-code-and-body.png)
 
 No worries - you'll be adding data in the next step.
 ## Step 2 - Add your own list data
@@ -47,7 +47,7 @@ Scroll down to where you see the Server Response. You should see the 201 respons
 
 In the server response, you'll now see that the *Shopping* ToDo list with the new attributes is returned. Copy the new ```id```
 
-![Screenshot of the response code and the response body now showing 2 ToDo lists](/Lab2/assets/response-with-new-list.png)
+![Screenshot of the response code and the response body now showing 2 ToDo lists](assets/response-with-new-list.png)
 
 ## Step 3 - Add your own list item data
 
@@ -124,6 +124,6 @@ You've now added 3 list items (milk, bread, and eggs) to the *Shopping* list - a
 
 Scroll down to where you see the Server Response. You should see the 200 response code along with the 3 items that you've just added to the *Shopping* ToDo list. 
 
-![Screenshot of the response code and the response body with the 3 Shopping list items](/Lab2/assets/shopping-list-items.png)
+![Screenshot of the response code and the response body with the 3 Shopping list items](assets/shopping-list-items.png)
 
 ### Next: [Lab 3 - Creating a Custom Connector](/Lab3/)

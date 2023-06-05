@@ -11,7 +11,7 @@ You can create your own developer tenant through the Microsoft 365 Developer Pro
 1. Go to [developer.microsoft.com/microsoft-365/dev-program](https://developer.microsoft.com/microsoft-365/dev-program)
 2. Click **Join Now**
 
-![Screenshot of Join Now Call to action on the Microsoft 365 Developer Program page](/Lab0/assets/join-m365-dev-program.jpg)
+![Screenshot of Join Now Call to action on the Microsoft 365 Developer Program page](assets/join-m365-dev-program.jpg)
 
 3. Sign into your Microsoft account or Create a Microsoft account
 
@@ -20,7 +20,7 @@ You can create your own developer tenant through the Microsoft 365 Developer Pro
 4. Complete the **Join the Microsoft 365 Developer Program!** form.
 5. On the **Set up your Microsoft 365 E5 sandbox** page, make sure that *Instant sandbox* is selected and then click **Next**.
 
-![Screenshot of the Set up your Microsoft 365 E5 account page](/Lab0/assets/set-up-your-microsoft-365-e5-sandbox.png)
+![Screenshot of the Set up your Microsoft 365 E5 account page](assets/set-up-your-microsoft-365-e5-sandbox.png)
 
 6. Finish setting up your *Instant sandbox* by choosing your country/region, admin username, and admin password. 
 
@@ -35,13 +35,13 @@ After the subscription is created, your subscription domain name and expiration 
 
 9. Copy/Save the Administrator email address for signing into the Power Apps portal.
 
-![Screenshot of the Microsoft 365 developer subscriptions page](/Lab0/assets/microsoft-365-developer-subscriptions.png)
+![Screenshot of the Microsoft 365 developer subscriptions page](assets/microsoft-365-developer-subscriptions.png)
 
 ## Step 2: Add a Power Platform Developer account to the  Microsoft 365 Developer tenant you've just created
 
 The Power Apps Developer Plan gives you a free development environment to build and test with Power Apps, Power Automate, and Microsoft Dataverse. In this workshop, the Power Apps Developer Plan enables you to also create a custom connector.
 
-![Screenshot showing the Power Apps Developer plan features](/Lab0/assets/power-apps-dev-plan-custom-conn.png)
+![Screenshot showing the Power Apps Developer plan features](assets/power-apps-dev-plan-custom-conn.png)
 
 1. Go to [powerapps.microsoft.com/developerplan](https://powerapps.microsoft.com/developerplan).
 
@@ -49,17 +49,17 @@ The Power Apps Developer Plan gives you a free development environment to build 
 
 3. For **Step 1**, enter your **M365 Dev Program** email address (the **Administrator email** address).
 
-![Microsoft Power Apps for Developer Step One](/Lab0/assets/sign-up-for-power-apps.jpg)
+![Microsoft Power Apps for Developer Step One](assets/sign-up-for-power-apps.jpg)
 
 4. You should receive the following message:
 
-![Microsoft Power Apps for Developer Step One](/Lab0/assets/sign-up-message.jpg)
+![Microsoft Power Apps for Developer Step One](assets/sign-up-message.jpg)
 
 Click **Sign in** and sign-in using your M365 Dev Program credentials (the **Administrator** email address and password).
 
 5. After you sign in and complete the process, click **Get Started**.
 
-![Microsoft Power Apps for Developer Step One](/Lab0/assets/power-apps-get-started.jpg)
+![Microsoft Power Apps for Developer Step One](assets/power-apps-get-started.jpg)
 
 6. After your licenses have been configured, you should automatically be redirected to [make.powerapps.com](https://make.powerapps.com/) - which is the Power Apps Portal.
 
@@ -73,7 +73,7 @@ You can create an Azure account for free and receive 12 months of popular servic
 
 1. Go to [azure.microsoft.com/free](https://azure.microsoft.com/free/) and click **Start Free**.
 
-![Start free with Azure](/Lab0/assets/azure-start-free.png)
+![Start free with Azure](assets/azure-start-free.png)
 
 2. Sign into your Microsoft account
 
@@ -81,6 +81,6 @@ You can create an Azure account for free and receive 12 months of popular servic
 
 4. Once your information has been confirmed, you'll be ready to start with Azure.
 
-![Screenshot showing a link to the Azure Portal](/Lab0/assets/ready-with-azure.png)
+![Screenshot showing a link to the Azure Portal](assets/ready-with-azure.png)
 
-### Next: [Lab 1 - Getting the Java API up and running in Azure](/Lab1/)
+### Next: [Lab 1 - Getting the Python API up and running in Azure](/Lab1/)
