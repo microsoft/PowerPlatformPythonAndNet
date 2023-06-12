@@ -14,7 +14,7 @@ You're going to start off by creating a [solution](https://learn.microsoft.com/e
 
 Make sure that you're in the correct environment at the top right-hand side of the portal - it should be ```(Your name)'s Environment```. If not then click on the environment picker and change it to the correct one.
 
-![Environment picker in Power Apps](/PowerPlatformPythonAndNet/Lab3/assets/environment-picker.png)
+![Environment picker in Power Apps](assets/environment-picker.png)
 
 2. Click on **Solutions**  in the left hand menu.
 
@@ -35,7 +35,7 @@ Use these fields:
 
 The solution should automatically open up - If it doesn't, it should appear in the solution list. Click on the display name of your solution to open the solution. 
 
-![Screenshot of opened solution](/PowerPlatformPythonAndNet/Lab3/assets/open-solution.png)
+![Screenshot of opened solution](assets/open-solution.png)
 
 ## Step 2 - Creating the Custom Connector and updating general details
 
@@ -49,13 +49,13 @@ There are 12 API actions in total but we're going to make use of 7 for now. Chan
 
 3. At the top of the page, name the connector ```PythonToDo```.
 
-![The custom connector name](/PowerPlatformPythonAndNet/Lab3/assets/connector-name.png)
+![The custom connector name](assets/connector-name.png)
 
 Right now, you're on the ```1. General``` screen. Here, you can add a connector icon, color, and a description. We will skip that for now. However, we need to fill in a *Host*. Which is the URL of the Python API without the ```https://``` protocol.
 
 4. Copy the URL of the Python API and paste it into the *host* field and then remove the ```https://``` protocol. 
 
- ![Screenshot of Python API Host in Custom Connector wizard](/PowerPlatformPythonAndNet/Lab3/assets/host-url-for-connector.png)
+ ![Screenshot of Python API Host in Custom Connector wizard](assets/host-url-for-connector.png)
 
 5. Navigate to the security part of the wizard by clicking on the tab ```2. Security``` or by clicking on the ```Security →``` button on the bottom right.
 
@@ -81,7 +81,7 @@ Let's start with the ```GET /lists``` action under the Lists API.
 
 1.  On the left pane, select ```+ New Action```.
 
-![New Action button in the custom connector wizard](/PowerPlatformPythonAndNet/assets/new-action-custom-connector.png)
+![New Action button in the custom connector wizard](assets/new-action-custom-connector.png)
 
 2. Fill in the following details:
 
@@ -97,13 +97,13 @@ Let's start with the ```GET /lists``` action under the Lists API.
     * Verb: ```GET```
     * URL: ```(YOUR API URL HERE)/lists?top=20&skip=0```
 
-![Import request from sample screenshot](/PowerPlatformPythonAndNet/Lab3/assets/import-from-sample-custom-connector.png)
+![Import request from sample screenshot](assets/import-from-sample-custom-connector.png)
 
 4. Click ```Import```.
 
 The following request should get generated:
 
-![Generated request](/PowerPlatformPythonAndNet/Lab3/assets/generated-request.png)
+![Generated request](assets/generated-request.png)
 
 Next, we are going to improve the query parameters, so that they are more useful for the users of the custom connector.
 
@@ -120,7 +120,7 @@ Next, we are going to improve the query parameters, so that they are more useful
 
 The other fields can be left on the default value. 
 
-![All top query properties](/PowerPlatformPythonAndNet/Lab3/assets/top-query-properties.png)
+![All top query properties](assets/top-query-properties.png)
 
 7. When done, scroll up and select the ```← Back``` button.
 
@@ -147,7 +147,7 @@ Remember, in Lab 2, while you were adding data via the ToDo API - when you ran t
 
 If you go back to the ```GET /lists``` action under the Lists API, you'll see that there is a sample response given. 
 
-![Sample 200 response from API](/PowerPlatformPythonAndNet/Lab3/assets/sample-responses.png)
+![Sample 200 response from API](assets/sample-responses.png)
 
 We will use this sample in the Custom Connector.
 
@@ -167,7 +167,7 @@ We will use this sample in the Custom Connector.
 
 The following should be generated:
 
-![Generated response from sample](/PowerPlatformPythonAndNet/Lab3/assets/generated-response.png)
+![Generated response from sample](assets/generated-response.png)
 
 In the screenshot above, you can see all the properties that are available in the body payload. These properties are available because they were in our sample JSON which we used to generate the response.
 
@@ -342,7 +342,7 @@ The other fields can be left on the default value. When done, scroll up and sele
 
 You should have 3 List actions defined by now: 
 
-![Lists of 3 actions defined so far for ToDo lists](/PowerPlatformPythonAndNet/Lab3/assets/list-custom-connectors-actions.png)
+![Lists of 3 actions defined so far for ToDo lists](assets/list-custom-connectors-actions.png)
 
 Let's go ahead and define the ListItem actions.
 
@@ -414,7 +414,7 @@ The other fields can be left on the default value. When done, scroll up and sele
 
 The following should be generated:
 
-![Generated response for GetListItems](/PowerPlatformPythonAndNet/assets/generated-response-listitems.png)
+![Generated response for GetListItems](assets/generated-response-listitems.png)
 
 13. For **each** of those properties in the *body* section, select the ˅ next to the property and then fill in the following:
 
@@ -818,7 +818,7 @@ When done, scroll up and select the ```← Back``` button. That will lead you ba
 
 You've done a TON of work so far and it has paid off because you have now defined the 7 actions that you'll be using in your Power App.
 
-![All seven ToDo actions in the customer connector wizard](PowerPlatformPythonAndNet/Lab3/assets/all-seven-actions.png)
+![All seven ToDo actions in the customer connector wizard](assets/all-seven-actions.png)
 
 ## Step 5 - Using Custom Code Support? 
 
