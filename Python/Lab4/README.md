@@ -84,7 +84,7 @@ Click ```Test operation```.
 
 You should have a 200 response code along with the body containing the updated *Work* ToDo list item: "Send email to manager and colleague". It was previously: "Send email to manager".
 
-![Body response of updated ToDo list item](updated-list-item-response.png)
+![Body response of updated ToDo list item](assets/updated-list-item-response.png)
 
 Now let's work with the Delete actions.
 
