@@ -531,4 +531,4 @@ And there you go! The Canvas App UI is now complete.
 
 Now it's time to use our Custom Connector Actions in the Canvas App.
 
-### Next: [Lab 6 - Adding data to a Power Apps Canvas App](/PowerPlatformPythonAndNet/Lab6/)
+### Next: [Lab 6 - Adding data to a Power Apps Canvas App](/PowerPlatformPythonAndNet/Python/Lab6/)
