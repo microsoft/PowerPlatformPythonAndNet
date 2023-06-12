@@ -63,7 +63,7 @@ Click **Sign in** and sign-in using your M365 Dev Program credentials (the **Adm
 
 6. After your licenses have been configured, you should automatically be redirected to [make.powerapps.com](https://make.powerapps.com/) - which is the Power Apps Portal.
 
-![Power Apps Maker Portal](/Lab0/assets/power-apps-portal.png)
+![Power Apps Maker Portal](assets/power-apps-portal.png)
 
 ## Step 3: Create an Azure account
 
