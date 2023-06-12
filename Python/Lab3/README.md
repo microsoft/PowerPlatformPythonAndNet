@@ -14,7 +14,7 @@ You're going to start off by creating a [solution](https://learn.microsoft.com/e
 
 Make sure that you're in the correct environment at the top right-hand side of the portal - it should be ```(Your name)'s Environment```. If not then click on the environment picker and change it to the correct one.
 
-![Environment picker in Power Apps](Python/Lab3/assets/environment-picker.png)
+![Environment picker in Power Apps](/assets/environment-picker.png)
 
 2. Click on **Solutions**  in the left hand menu.
 
