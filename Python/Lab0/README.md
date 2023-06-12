@@ -83,4 +83,4 @@ You can create an Azure account for free and receive 12 months of popular servic
 
 ![Screenshot showing a link to the Azure Portal](assets/ready-with-azure.png)
 
-### Next: [Lab 1 - Getting the Python API up and running in Azure](/Lab1/)
+### Next: [Lab 1 - Getting the Python API up and running in Azure](/Python/Lab1/)
