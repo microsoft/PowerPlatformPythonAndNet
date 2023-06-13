@@ -826,4 +826,4 @@ If you navigate to the ```4. Code (Preview)``` tab - you'll see that you have th
 
 Select the tab ```5. Test``` to move on to the last part of the connector - Testing. Which you will be doing in the next Lab.
 
-### Next: [Lab 4 - Testing a Custom Connector](/Workshops/JavaAndPowerApps/Lab4/)
+### Next: [Lab 4 - Testing a Custom Connector](/DotNet/Lab4/)
